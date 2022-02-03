@@ -1,0 +1,35 @@
+----------------- Options ---------------
+                    alpha: 3                             
+               batch_size: 1                             
+          checkpoints_dir: ./checkpoints                 
+                 dataroot: ./datasets/cmdd               	[default: None]
+             dataset_mode: tbrec_cmdd                    	[default: table]
+                   device: cuda                          
+          display_winsize: 256                           
+                 dist_url: env://                        
+                    epoch: best                          	[default: latest]
+                     eval: False                         
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: False                         	[default: None]
+              load_height: 480                           
+                load_iter: 0                             	[default: 0]
+               load_width: 480                           
+         max_dataset_size: inf                           
+            max_test_size: inf                           
+             max_val_size: inf                           
+                    model: tbrec                         	[default: test]
+                     name: cmdd_overall                  	[default: experiment_name]
+                     norm: instance                      
+                 num_cols: 6                             
+                 num_rows: 25                            
+              num_threads: 4                             
+                output_nc: 3                             
+                    phase: test                          
+              results_dir: ./results/                    
+                rm_layers:                               
+                   suffix:                               
+                  verbose: False                         
+               world_size: 1                             
+----------------- End -------------------
